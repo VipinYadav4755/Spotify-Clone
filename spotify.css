@@ -1,0 +1,346 @@
+body{
+    margin: 0;
+    font-family: 'montserrat', sans-serif;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    border-radius: 1rem;
+}
+.sidebar{
+    width: 350px;
+    background-color:black;
+    border-radius: 1rem;
+}
+.main_content{
+    flex: 1;
+    background-color: #121212;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.music_player{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: #121212;
+    border-radius: 0.7rem;
+    margin: 0.5rem;
+    justify-content: center;
+}
+.home{
+    padding: 1rem;
+}
+.search{
+    padding: 1rem;
+    opacity: 0.5;
+}
+.search:hover{
+    opacity: 1;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.home a {
+    padding: 1rem;
+    font-size: 1rem;
+}
+.home i {
+    font-size: 1.25rem;
+}
+.search a {
+    padding: 1rem;
+    font-size: 1rem;
+}
+.search i {
+    font-size: 1.25rem;
+}
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    height: 100%;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lib-options img {
+    height: 1.25rem;
+    width: 1.25rem;
+    padding-left: 1rem;
+    
+}
+.lib-options{
+    opacity: 0.5;
+}
+.lib-options:hover{
+    opacity: 1;
+}
+.lib-options a {
+    padding-left: 1rem;
+}
+.icons{
+    padding: 0.5rem;
+    margin-left: 4.2rem;
+}
+
+.icons i {
+    padding: 0.7rem;
+    opacity: 0.5;
+}
+.icons i:hover {
+    opacity: 1;
+    background-color: #262525;
+    border-radius: 50%;
+}
+.boxes{
+    height: 8rem;
+    background-color: #262525;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+.box1 p{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-weight: 550;
+}
+.box2 p{
+    padding-left: 1rem;
+    font-weight: 330;
+    font-size: small;
+}
+button{
+    border-radius: 1.5rem;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-left: 1rem;
+}
+.music-icons{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-top: 0.75rem;
+}
+
+.backword{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    opacity: 0.5;
+    transform: rotate(180deg);
+}
+.forward{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    opacity: 0.5;
+}
+.shuffle{
+    margin-left: 42rem;
+    margin-right: 0.5rem;
+    opacity: 0.4;
+}
+.pause{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    opacity: 0.5;
+}
+.reload{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    opacity: 0.4;
+}
+.line-lib{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 25rem;
+    height: 0.35rem;
+    background-color: #262525;
+    margin-top: 0.85rem;
+    border-radius: 1rem;
+}
+.dot{
+    width: 0.3rem;
+    height: 0.1rem;
+    background-color: white;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    opacity: 0.5;
+}
+.dot-vertup{
+    width: 0.14rem;
+    height: 0.14rem;
+    background-color: white;
+    margin-top: 0.85rem;
+    opacity: 0.5;
+}
+.dot-vertdown{
+    width: 0.14rem;
+    height: 0.14rem;
+    background-color: white;
+    margin-top: 0.3rem;
+    opacity: 0.5;
+}
+.icons-image img{
+    width: 3.5rem;
+    height: 1.3rem;
+    margin-left: 22rem;
+    margin-right: 0.5;
+}
+.mute{
+    margin-left: 1rem;
+    margin-right: 0.8rem;
+}
+.mute i{
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+.val{
+    margin-right: 0.8rem;
+}
+.down-left-right i{
+    font-size: 1.2rem;
+    opacity: 0.4;
+}
+.sticty-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left-right-arrow{
+    margin-left: 1rem;
+}
+.left-right-arrow i{
+    text-align: center;
+    padding-top: 1rem;
+    margin-left: 0.3rem;
+    font-size: 1.25rem;
+    height: 1.5rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #121212;
+    opacity: 0.8;
+}
+.right-button{
+    margin-right: 1rem;
+    padding-top: 1rem;
+    display: flex;
+}
+.right-button button i{
+    margin-right: 0.5rem;
+   
+}
+.user i{
+    margin-right: 0.5rem;
+    height: 1.5rem;
+    width: 2rem;
+    background-color: #121212;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-left: 0.3rem;
+    font-size: 1.25rem;
+    border-radius: 50%;
+
+}
+.sticty-butt{
+    margin-top: 1.6rem;
+    padding-bottom: 1rem;
+}
+.mus{
+   background-color:#313131 ;
+   color: white;
+   font-weight: 700;
+   font-size: 0.85rem;
+}
+.pod{
+    background-color:#313131 ;
+    color: white;
+    font-weight: 700;
+    font-size: 0.85rem;
+ }
+ .Install{
+    background-color: #121212;
+    color: white;
+    font-weight: 700;
+ }
+ .ex-premium{
+    font-weight: 700;
+ }
+ .sticty-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+ }
+ .sticty-butt{
+    position: sticky;
+    top: 4rem;
+    background-color: #121212;
+ }
+.stictky{
+    background-color: #121212;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.8rem;
+}
+.card{
+    background-color: #121212;
+    width: 13rem;
+    padding: 0.5rem;
+    border-radius:0.5rem ;
+}
+.card:hover{
+    background-color: #313131;
+    transition: 1.5s;
+}
+.card img{
+    width: 100%;
+    height: 70%;
+    border-radius: 0.5rem;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-weight: 400;
+    font-size: 0.85rem;
+    opacity: 0.5;
+}
+.comp-links{
+    display:flex ;
+   margin-left: 9.5rem;
+}
+.comp{
+    width: 12rem;
+}
+.footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-line{
+    width: 90%;
+    border: solid white 0.5px;
+    opacity: 0.4;
+   
+}
